@@ -1,0 +1,19 @@
+{
+    "name": "dblp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/main.js",
+    "scripts": {
+        "build": "./node_modules/.bin/tsc",
+        "watch": "./node_modules/.bin/tsc --watch",
+        "start": "node ./dist/main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^14.14.25",
+        "typescript": "^4.1.3"
+    },
+    "dependencies": {}
+}
